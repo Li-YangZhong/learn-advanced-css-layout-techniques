@@ -1,12 +1,29 @@
+article p:first-of-type {
+    font-size: 2rem;
+    font-style: italic;
+}
+
+article img:last-of-type {
+    border: 10px solid slategray;
+}
+
+blockquote:only-of-type {
+    border-left: 5px solid slaegray;
+    padding-left: 1rem;
+    font-weight: bold;
+    font-style: italic;
+    color: slategray;
+}
+
+article p:nth-of-type(odd) {
+    color: maroon;
+}
+
 
 /* Demo styles only */
 body {
     margin: 2rem 3rem;
 
-}
-
-p {
-    margin: 0;
 }
 
 h2 {
