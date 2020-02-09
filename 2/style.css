@@ -15,7 +15,7 @@ blockquote:only-of-type {
     color: slategray;
 }
 
-article p:nth-of-type(3) {
+article p:nth-of-type(3n) {
     color: maroon;
 }
 
