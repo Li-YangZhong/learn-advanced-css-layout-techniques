@@ -1,0 +1,29 @@
+nav {
+    /* column-count: 4;
+    column-width: 150px; */
+    columns: 4 150px;
+    column-gap: 3rem;
+    column-rule: 1px dashed #ccc;
+    column-fill: balance;
+}
+
+h2 {
+    column-span: all;
+}
+/*Demo only styles */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #eeeeee;
+    font-family: 'Karla', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+section {
+    padding: 0 2rem;
+    margin: 0 auto;
+}
