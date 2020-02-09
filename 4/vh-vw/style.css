@@ -1,0 +1,17 @@
+.Box {
+    background-color: slategray;
+    width: 60vw; /*width + margin = 100%*/
+    height: 40vh;
+    margin: 30vh 20vw;
+}
+
+/* Demo styles only */
+body {
+    margin: 0;
+}
+p {
+    margin: 0;
+    padding: 2rem 0 2rem 2rem;
+    font-family: monospace;
+    font-size: 2rem;
+}
